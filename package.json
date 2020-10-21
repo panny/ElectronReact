@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "watch": "webpack --config webpack.common.js -- watch"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   "author": "Panny Yeung",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.12.3",
     "electron": "^10.1.4"
   },
   "dependencies": {
