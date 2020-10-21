@@ -1,0 +1,18 @@
+{
+  "name": "electronreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://autotron@dev.azure.com/autotron/ElectronReact/_git/ElectronReact"
+  },
+  "author": "Panny Yeung",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.4"
+  }
+}
